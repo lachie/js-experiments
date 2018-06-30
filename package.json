@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch": "watchify index.ts -p [ tsify --noImplicitAny ] -o index.js",
+    "open": "open index.html"
+  },
+  "dependencies": {
+    "tsify": "^4.0.0",
+    "typescript": "^2.9.2",
+    "watchify": "^3.11.0"
+  }
+}
